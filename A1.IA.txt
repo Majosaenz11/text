@@ -1,0 +1,221 @@
+UNIVERSIDAD AUTÓNOMA DE NUEVO LEÓN
+FACULTAD DE INGENIERIA MECANICA Y
+ELECTRICA
+
+A1. Background of AI
+ARTIFICIAL INTELIGENCE
+
+ID NUMBER
+
+NAME
+
+PROGRAM
+
+2077609
+
+María José Sáenz Carmona
+
+IB
+
+1
+
+Chapter 1: Introduction
+The first chapter of the book provides an introduction to artificial intelligence (AI). It
+begins by defining AI as the study of how to make computers intelligent. It provides
+us with four definitions:
+
+The definitions on the left measure success in terms of fidelity to human
+performance, whereas RATIONALITY the ones on the right measure against an
+ideal performance measure, called rationality. A system is rational if it does the “right
+thing,” given what it knows.
+The authors then discuss the history of AI, from its early beginnings in the 1950s to
+its more recent successes in areas such as machine learning and natural language
+processing.
+The Turing Test, introduced by Alan Turing in 1950, aims to define intelligence
+operationally. It considers a computer intelligent if a human evaluator, through written
+questions and responses, cannot distinguish between a human and a computer. To
+achieve this, a computer must possess skills in natural language processing,
+knowledge representation, automated reasoning, and machine learning to
+communicate effectively in English, store information, make deductions, and adapt to
+new situations while recognizing patterns.
+
+2
+
+To determine if a program thinks like a human, we must understand human thinking
+through introspection, psychological experiments, or brain imaging. Once we have a
+precise theory of the mind, we can express it as a computer program. Comparing the
+program's input-output behavior to human behavior provides evidence of shared
+mechanisms. Cognitive science combines AI and psychology to construct testable
+theories of the human mind. While AI and cognitive science have distinct
+approaches, they mutually influence each other, notably in computer vision, which
+incorporates neurophysiological evidence into computational models.
+Aristotle pioneered syllogisms as a form of irrefutable reasoning. These patterns for
+arguments, yielding correct conclusions from correct premises, initiated the field of
+logic. In the 19th century, logicians developed precise notation for statements about
+the world, while 1965 saw programs capable of solving any problem with logic. The
+logicist tradition in artificial intelligence seeks to build intelligent systems on such
+programs but faces challenges in expressing informal knowledge formally and
+practical problem-solving limitations due to computational resources. These
+challenges primarily surfaced in the logicist approach.
+An agent is something that acts, and computer agents go beyond mere action,
+operating autonomously, perceiving their environment, persisting over time, adapting
+to change, and pursuing goals rationally. A rational agent acts to achieve the best
+possible outcome, even in uncertain situations. While correct inference is a part of
+rationality, it doesn't encompass all of it; some situations require immediate actions
+without logical reasoning. Skills like knowledge representation, reasoning, and
+learning enable agents to act rationally, making them well-equipped for the Turing
+Test. The rational-agent approach is more general and scientifically feasible than
+other approaches based on human behavior. While perfect rationality is challenging
+in complex environments, it serves as a useful starting point for analysis, with limited
+rationality addressed in later chapters.
+The foundations of AI are:
+- Philosophy: Ideas related to the mind and cognition. Aristotle's formulation of
+laws governing rational thinking and goes on to mention early attempts at
+mechanical reasoning, including the Pascaline and Leibniz's calculator. Also
+the dualism and materialism in the context of the mind, discussing the idea of
+free will. Additionally, it introduces the empiricism movement, which
+emphasizes sensory experience as the source of knowledge, and the
+development of logical positivism, which seeks to combine rationalism and
+empiricism. The confirmation theory, a computational approach to acquiring
+knowledge from experience. The final element in the philosophical picture of
+the mind is the connection between knowledge and action.
+- Mathematics: George Boole developed propositional logic, and Gottlob
+Frege extended it to first-order logic. Kurt Gödel showed limits to deductive
+reasoning in 1930, leading to the Church-Turing thesis by Alan Turing. The
+3
+
+-
+
+-
+
+-
+
+-
+
+notion of tractability, the difference between polynomial and exponential
+complexity, was emphasized in the 1960s. NP-completeness theory,
+introduced by Cook and Karp, helps identify intractable problems. Probability
+theory, originating from Cardano and advanced by Pascal, Laplace, and
+Bayes, became crucial for handling uncertainty and is fundamental in AI's
+uncertain reasoning.
+Economics: The science of economics began with Adam Smith's 1776
+publication, treating economies as agents maximizing their well-being. It's
+about studying how people make choices for preferred outcomes, involving
+utility theory. Decision theory combines probability and utility for decisions
+under uncertainty, while game theory considers strategic interactions.
+Operations research addressed sequential decision problems, and AI
+research initially followed separate paths. Herbert Simon's work on satisficing,
+making "good enough" decisions, gained prominence, and decision-theoretic
+techniques for agent systems have seen a resurgence since the 1990s.
+Neuroscience: Neuroscience studies the nervous system, particularly the
+brain. The brain's role in thinking has been known for centuries due to head
+injuries' effects. Aristotle noted human brain size in 335 B.C. It was in the 18th
+century that the brain was recognized as the seat of consciousness. Broca's
+study in 1861 identified specific brain areas for cognitive functions. Golgi's
+staining technique in 1873 revealed individual neurons, studied by Cajal.
+Brain-body maps exist but can change, and we're uncertain about memory
+storage. Brain activity measurement began in 1929 with EEG and advanced
+with fMRI. We still don't fully understand cognitive processes. Brains and
+digital computers differ in speed and capacity. Futurists discuss a "singularity,"
+but it doesn't guarantee human-level intelligence. Mysticism is the only
+alternative to explain the mind beyond physical science.
+Psychology: Scientific psychology traces its origins to Hermann von
+Helmholtz and Wilhelm Wundt in Germany. Helmholtz applied the scientific
+method to human vision, while Wundt established the first experimental
+psychology laboratory. Behaviorism, led by John Watson, rejected mental
+processes and focused on objective measures but had limited success with
+humans. Cognitive psychology, rooted in the work of William James and
+Helmholtz, views the brain as an information processor and regained
+legitimacy through figures like Kenneth Craik, who outlined key steps in
+knowledge-based agents. Donald Broadbent's work further advanced
+information processing in psychology. In the United States, computer
+modeling led to the birth of cognitive science, with influential papers by
+George Miller, Noam Chomsky, and Allen Newell and Herbert Simon
+demonstrating the use of computer models in understanding memory,
+language, and logical thinking. This approach is now widely accepted in
+psychology as a way to describe cognitive functions.
+Computer engineering: To succeed in artificial intelligence, we require both
+intelligence and a computing device, with computers being the preferred
+4
+
+-
+
+-
+
+choice. Computer development began during World War II, with early
+machines like the Heath Robinson, Colossus, Z-3, and ABC. The ENIAC
+marked a significant milestone. Over time, computing power increased,
+eventually shifting focus to parallel processing. Before electronic computers,
+there were automated machines dating back to the 17th century, with Charles
+Babbage's Analytical Engine being the first universal computation artifact. Ada
+Lovelace was an early programmer. AI also contributed to computer science,
+influencing areas like operating systems, programming languages, and
+software tools.
+Control theory and cybernetics: Ktesibios of Alexandria created the first
+self-controlling machine, a water clock with a regulator, around 250 B.C.,
+challenging the traditional definition of artifacts. Control theory, pioneered by
+Norbert Wiener in the 20th century, explored feedback control systems and
+their connection to cognition, emphasizing the role of minimizing "error" in
+achieving goals. This led to the development of mathematical and
+computational models of cognition, culminating in Wiener's book
+"Cybernetics" and influential conferences. While control theory and AI share
+similar goals of designing optimal systems, they diverged due to differences in
+mathematical techniques and problem domains. Control theory relies on
+calculus and matrix algebra for continuous variables, while AI uses logical
+inference and computation for problems like language, vision, and planning
+beyond continuous control systems.
+Linguistics: In 1957, B. F. Skinner published "Verbal Behavior," an influential
+behaviorist perspective on language learning. Noam Chomsky's review of the
+book highlighted its shortcomings in explaining language creativity. Chomsky's
+own syntactic-based theory addressed this issue and laid the foundation for
+computational linguistics, the intersection of linguistics and AI. However, the
+complexity of language understanding, including context and subject matter,
+became apparent in the 1960s, leading to the development of knowledge
+representation and the connection between linguistics and philosophy.
+
+The birth of AI was in 1956, John McCarthy, a key figure in AI, obtained his PhD at
+Princeton in 1951 and later moved to Stanford and Dartmouth College, where AI
+officially began. McCarthy, along with Minsky, Shannon, and Rochester, organized a
+1956 Dartmouth workshop on AI. The proposal stated that AI aimed to simulate all
+aspects of learning and intelligence using machines. The workshop introduced major
+AI figures, including Newell and Simon, who had a groundbreaking reasoning
+program. Despite not leading to immediate breakthroughs, the workshop united key
+AI researchers, shaping the field for the next two decades. AI emerged as a distinct
+field due to its focus on replicating human faculties and its methodology rooted in
+computer science.
+AI became a thriving industry from 1980 onwards. The first commercial expert
+system, R1, saved companies like Digital Equipment Corporation and DuPont
+5
+
+millions of dollars. Major U.S. corporations were exploring AI, and Japan's "Fifth
+Generation" project and the formation of MCC in the United States marked
+significant efforts in AI research. However, despite initial growth, these projects did
+not achieve their ambitious goals. The AI industry experienced rapid growth from the
+early '80s to 1988, with billions of dollars invested, but it later faced a period known
+as the "AI Winter" when many companies failed to deliver on their grand promises,
+leading to setbacks in the field.
+In recent years, artificial intelligence (AI) has undergone a significant transformation.
+The field now emphasizes building upon existing theories, rigorous testing, and
+real-world applications rather than relying on intuition or isolated approaches. AI is
+embracing fields like control theory and statistics that it once rebelled against.
+Methodologically, AI has become more scientific, requiring hypotheses to be tested
+empirically and analyzed statistically. This shift is exemplified in areas like speech
+recognition, machine translation, neural networks, data mining, and probabilistic
+reasoning. These changes have also fostered integration with other domains,
+leading to advancements in robotics, computer vision, and knowledge
+representation, resulting in more robust and effective AI methods.
+In conclusion, the evolution of artificial intelligence in recent years is remarkable. The
+field has matured significantly, shifting towards a more scientific and rigorous
+approach, and embracing established theories and methodologies. This transition
+has enabled AI to make meaningful progress and real-world impact, as evidenced by
+the success stories in speech recognition, machine translation, neural networks, data
+mining, and probabilistic reasoning. Furthermore, the integration of AI with other
+domains like robotics and computer vision has led to even more promising
+developments. Overall, the current state of AI is characterized by a fruitful synergy
+between theory and practice, promising a future where intelligent systems can
+continue to address complex real-world challenges and enrich our lives in various
+ways.
+
+6
+
+
